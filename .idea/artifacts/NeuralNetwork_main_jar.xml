@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NeuralNetwork_main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NeuralNetwork_main_jar</output-path>
+    <root id="archive" name="NeuralNetwork_main.jar">
+      <element id="module-output" name="NeuralNetwork_main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/equation/0.30/8b676f156cdcbac572249f303dee710bffa94020/equation-0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/core/0.30/79f5269e95262f6b81b84b04b2c355b0704ac9fe/core-0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/all/0.30/2f1e5385d75bb674d04133b975761f28466d9f45/all-0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/simple/0.30/db02b4357af778950d9b0d8652b3bb4af785d999/simple-0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/denseC64/0.30/5ead74ac0ce4a32b4dbced7dfa61a552ef9e2077/denseC64-0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ejml/dense64/0.30/480f1c2838c2998c7e9be4491ef689d590a838b9/dense64-0.30.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
