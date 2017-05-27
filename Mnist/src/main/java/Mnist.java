@@ -3,12 +3,14 @@ import org.ejml.simple.SimpleMatrix;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by even on 17.05.17.
+ * An implementation of the mnist dataset with handwritten digits. Using the Nerual network i train it with the data-set
+ * and test it on the test set.
  */
 public class Mnist {
 
@@ -55,7 +57,7 @@ public class Mnist {
             }
             scanner.close();
             System.out.println("Loading was a success!");
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
@@ -95,7 +97,7 @@ public class Mnist {
             }
             scanner.close();
             System.out.println("Loading was a success");
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

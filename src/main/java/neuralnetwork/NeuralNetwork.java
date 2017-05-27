@@ -159,6 +159,13 @@ public class NeuralNetwork {
         MatrixToCSV.matrixToCSV(weight_hidden_output, "who");
     }
 
+
+    /**
+     * Import weights from file
+     *
+     * @param wihFileName weights input-hidden
+     * @param whoFileName weights hidden-output
+     */
     public void importWeights(String wihFileName, String whoFileName) {
         SimpleMatrix inHidden = CSVToMatrix.csvToMatrix(wihFileName);
         SimpleMatrix hiddenOut = CSVToMatrix.csvToMatrix(whoFileName);
