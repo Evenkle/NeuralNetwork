@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Mnist:main" external.linked.project.path="$MODULE_DIR$/../../../Mnist" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="no.ntnu.stud.evenkle" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../Mnist/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../Mnist/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Mnist/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Mnist/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: org.ejml:all:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:core:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:dense64:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:denseC64:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:equation:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:simple:0.30" level="project" />
+    <orderEntry type="module" module-name="NeuralNetwork_main" exported="" />
+  </component>
+</module>

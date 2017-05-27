@@ -9,11 +9,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:all:0.30" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:core:0.30" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:dense64:0.30" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:denseC64:0.30" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:equation:0.30" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.ejml:simple:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:all:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:core:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:dense64:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:denseC64:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:equation:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.ejml:simple:0.30" level="project" />
   </component>
 </module>

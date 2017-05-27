@@ -1,3 +1,4 @@
 rootProject.name = 'NeuralNetwork'
 rootProject.name = 'NeuralNetwork'
+include 'Mnist'
 

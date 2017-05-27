@@ -1,0 +1,15 @@
+group 'no.ntnu.stud.evenkle'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.ejml:all:0.30'
+    compile project(':NeuralNetwork')
+}
