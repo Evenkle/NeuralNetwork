@@ -8,6 +8,7 @@ import training.DifferenceCostFunction;
 import transfer.Sigmoid;
 import transfer.TransferFunction;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -169,6 +170,19 @@ public class NeuralNetwork {
     public void importWeights(String wihFileName, String whoFileName) {
         SimpleMatrix inHidden = CSVToMatrix.csvToMatrix(wihFileName);
         SimpleMatrix hiddenOut = CSVToMatrix.csvToMatrix(whoFileName);
+        setWeights(inHidden, hiddenOut);
+    }
+
+
+    /**
+     * Import weights from file
+     *
+     * @param wih weights input-hidden
+     * @param who weights hidden-output
+     */
+    public void importWeights(InputStream wih, InputStream who) {
+        SimpleMatrix inHidden = CSVToMatrix.csvToMatrix(wih);
+        SimpleMatrix hiddenOut = CSVToMatrix.csvToMatrix(who);
         setWeights(inHidden, hiddenOut);
     }
 
